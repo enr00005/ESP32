@@ -4,8 +4,8 @@
 #include "time.h"
 
 // ====== WiFi credentials ======
-const char* ssid = "Enr.05";
-const char* password = "Ebenezer05";
+const char* ssid = "add your ssid";
+const char* password = "add your password";
 
 // ====== Motor pins ======
 #define IN1 12
@@ -259,3 +259,4 @@ void loop() {
     Serial.println("Buzzer OFF");
   }
 }
+
