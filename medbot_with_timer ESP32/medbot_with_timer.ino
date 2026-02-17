@@ -2,8 +2,8 @@
 #include <WebServer.h>
 
 // ================= WIFI AP =================
-const char* ssid = "Evolve_4G";
-const char* password = "Evolve@7272";
+const char* ssid = "Enter your wifi name";
+const char* password = "Enter your wifi password";
 
 // ================= MOTOR PINS =================
 #define M1A 12
@@ -225,3 +225,4 @@ void loop(){
     buzzerActive = false;
   }
 }
+
